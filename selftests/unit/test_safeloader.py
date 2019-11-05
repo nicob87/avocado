@@ -40,7 +40,7 @@ class SomeClass(Test):
 
 from logging import Logger, LogRecord
 class Anyclass(LogRecord): pass
-#class Anyclass(Logger): pass #Hint: this line instead of previous one and it works
+##class Anyclass(Logger): pass #Hint: this line instead of previous one and it works
 '''
 
 RECURSIVE_DISCOVERY_TEST1 = """
